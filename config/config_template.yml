@@ -19,10 +19,10 @@ pkg_name : net.mobileinsight.app
 
 dist_name : mi3
 
-bootstrap : pygame
+bootstrap : sdl2
 
 # replace it with your minimal Android API level
-minsdk : 14
+minsdk : 19
 
 # package requirements
 requirements : pyserial,kivy,mobileinsight
